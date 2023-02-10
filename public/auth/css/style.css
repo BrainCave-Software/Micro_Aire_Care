@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+body {
+  background-color: #eee;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+/* login-1 page csss */
+.login-1-page .logo-img img {
+  width: 168px;
+  height: 168px;
+  position: absolute;
+  top: -30px;
+}
+
+.login-1-page {
+  margin: 100px 60px;
+}
+.login-1-page {
+  position: relative;
+}
+.login-1-page form input {
+  background-color: transparent;
+  border: none;
+  border-bottom: solid 1px rgb(88, 82, 82);
+  border-radius: 0;
+}
+.login-1-page form .form-check-input {
+  border: 1px solid #333;
+}
+.login-1-page form {
+  /* border: 1px solid #d7d6d6; */
+  padding: 50px;
+}
+.login-1-page form .row {
+  margin-bottom: 30px !important;
+}
+.login-1-page form h3 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  color: #080a75;
+  margin-bottom: 45px;
+}
+.login-1-page form button {
+  background: #080a75;
+  border: none;
+  padding: 5px 46px;
+  color: #fff;
+}
+.login-1-page form .form-button {
+  text-align: center;
+}
+.login-1-page form button a {
+  color: #fff;
+  text-decoration: none;
+}
+/* login-1 page css */
+
+/* resposive css */
+/*------------------------- for mobile------------------------ */
+@media only screen and (max-width: 479px) {
+}
+/*------------------------- for tablet------------------------ */
+@media only screen and (max-width: 768px) {
+}

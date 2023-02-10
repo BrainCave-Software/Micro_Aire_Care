@@ -1,0 +1,83 @@
+ul#tabs {
+    list-style-type: none;
+    /* margin: 30px 0 0 0; */
+    padding: 0 0 0.3em 0;
+}
+
+ul#tabs li {
+    display: inline-block;
+     margin-bottom: 25px; 
+}
+
+ul#tabs li a {
+    font-size: medium;
+    color: #42454a;
+    background-color: #dedbde;
+    border: 1px solid #c9c3ba;
+    /* border-bottom: none; */
+    padding: 0.8em;
+    text-decoration: none;
+}
+
+ul#tabs li a:hover {
+    background-color: #f1f0ee;
+}
+
+ul#tabs li a.selected {
+    color: #000;
+    background-color: #fff;
+    font-weight: bold;
+    padding: 0.8em;
+}
+
+div.tabContent {
+    /* border: 1px solid #c9c3ba; */
+    /* padding: 0.5em; */
+    background-color: #fff;
+}
+
+div.tabContent.hide {
+    display: none;
+}
+/* for staff management side menubar */
+.dropbtn {
+    background-color: #e2e2f0;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown:hover .dropbtn {
+    background-color: #e2e2f0;
+  }
+/* end for staff management side menubar */
